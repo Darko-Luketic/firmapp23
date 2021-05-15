@@ -81,3 +81,8 @@ delete from opcina where sifra=2;
 delete from opcina where sifra=3;
 
 select * from opcina; 
+
+update mjesto set naziv='Zagreb'
+where sifra=3;
+
+select * from mjesto;
